@@ -40,6 +40,8 @@ if (@$headers["X-Forwarded-For"]) {
     $ip = $_SERVER['REMOTE_ADDR'];
 }
 
+echo $ip;
+
 foreach ($allowed_ips as $allow) {
     if (stripos($ip, $allow) !== false) {
         $allowed = true;
@@ -68,7 +70,7 @@ $commands = array(
 	'git submodule status',
     'test -e /usr/share/update-notifier/notify-reboot-required && echo "system restart required"',
 );
-
+ 
 $output = "\n";
 
 $log = "####### ".date('Y-m-d H:i:s'). " #######\n";
