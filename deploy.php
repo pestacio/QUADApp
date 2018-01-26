@@ -64,6 +64,7 @@ flush();
 $commands = array(
 	'echo $PWD',
 	'whoami',
+	'su -u quadsys',
 	'git pull',
 	'git status',
 	'git submodule sync',
