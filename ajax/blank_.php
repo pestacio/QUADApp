@@ -9,8 +9,8 @@
 			<!-- PAGE HEADER -->
 			<i class="fa-fw fa fa-home"></i> 
 				Page Header 
-			<span>>  
-				Subtitle
+			<span> 
+				Início
 			</span>
 		</h1>
 	</div>
